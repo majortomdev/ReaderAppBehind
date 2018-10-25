@@ -15,6 +15,7 @@ public class Synopsis {
     @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long synopsisId;
     private String content;
+
     
     @ManyToOne
     @JsonIgnore

@@ -26,6 +26,7 @@ public class User {
     private String userName;
     private String password;
     
+    
     @CreationTimestamp
     private Date created;
     
